@@ -6,8 +6,15 @@ The return value is the sum of all the numbers in the list
 added together
 (2 points)
 """
-def perimeter():
-  return
+def perimeter(numbers):
+  numbers=list(numbers)
+  total=0
+  
+  for i in numbers:
+    total += i
+    pass
+  print(f"The sum of all numbers in {numbers} is {total}")
+  return total
 
 if __name__ == "__main__":
   assert perimeter( [5,2,3,4] ) == 14

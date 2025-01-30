@@ -5,7 +5,11 @@ def sum(a,b):
     # a : float 
     # b : float
     # return value: returns the sum of the 2 numbers
-    return
+    a=float(a)
+    b=float(b)
+    sum=a+b
+    print(f"The sum of {a} and {b} is {sum}")
+    return sum
 
 
 
